@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 // Ayarlar
 // ============================
 const REPOS = [
-    { owner: "iguGH2025", repo: "c-dersleri", label: "c-dersleri" },
+    { owner: "iguGH2026", repo: "c-dersleri", label: "c-dersleri" },
     { owner: "trs-1342", repo: "cd-ws", label: "cd-ws" },
 ];
 
@@ -156,7 +156,7 @@ export default function GithubTables() {
                 }
 
                 // 3) Profil
-                const user = await gh<User>(`/users/iguGH2025`);
+                const user = await gh<User>(`/users/iguGH2026`);
                 setProfile(user);
             } catch (e: any) {
                 setError(e?.message || "Bilinmeyen hata");
@@ -292,7 +292,7 @@ export default function GithubTables() {
             </table>
 
             <h2 id="userStatsHeading">
-                Profil İstatistikleri: <code>iguGH2025</code>
+                Profil İstatistikleri: <code>iguGH2026</code>
             </h2>
             <table id="userStats" className="github-table">
                 <tbody>

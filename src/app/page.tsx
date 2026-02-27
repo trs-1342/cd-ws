@@ -71,7 +71,7 @@ export default function Page() {
 
             <a
               className="badge"
-              href="https://github.com/iguGH2025/c-dersleri"
+              href="https://github.com/iguGH2026/c-dersleri"
               target="_blank"
               rel="noreferrer"
             >
@@ -98,7 +98,7 @@ export default function Page() {
               <a className="badge" href="#indirme">Kurulum &amp; Akış</a>
               <a
                 className="badge"
-                href="https://github.com/iguGH2025/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
+                href="https://github.com/iguGH2026/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -175,7 +175,7 @@ export default function Page() {
             <p style={{ marginTop: 8 }}>
               Daha detaylı anlatım için{" "}
               <a
-                href="https://github.com/iguGH2025/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
+                href="https://github.com/iguGH2026/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -197,8 +197,8 @@ export default function Page() {
           <div>
             <h3 style={{ margin: 0, fontSize: 18, fontWeight: 600 }}>1) Katılım ve Erişim İzni</h3>
             <p style={{ marginTop: 8, maxWidth: 800 }}>
-              Projeye katkı yapmak isteyen öğrenciler önce yöneticiden izin alır.
-              Yönetici, GitHub kullanıcı adınızı aldıktan sonra e-posta adresinize
+              Projeye katkı yapmak isteyen öğrenciler önce yöneticilerle iletişime geçer.
+              Yöneticiler, GitHub kullanıcı adınızı aldıktan sonra e-posta adresinize
               davet (invite) gönderir. Daveti kabul eden kullanıcı projeye yazma
               izni kazanır ve <strong>main</strong> branch üzerinde düzenleme yapabilir.
               Katkı talebi için iletişim:{" "}
@@ -208,7 +208,7 @@ export default function Page() {
 
           <div>
             <h3 style={{ margin: 0, fontSize: 18, fontWeight: 600 }}>2) Projeyi İndirme (Klonlama)</h3>
-            <pre className="card" style={{ marginTop: 8, fontSize: 14 }}>{`git clone https://github.com/iguGH2025/c-dersleri.git
+            <pre className="card" style={{ marginTop: 8, fontSize: 14 }}>{`git clone https://github.com/iguGH2026/c-dersleri.git
 cd c-dersleri`}</pre>
           </div>
 
@@ -274,7 +274,7 @@ git push origin main`}</pre>
               <li>
                 Ayrıntılı rehber:{" "}
                 <a
-                  href="https://github.com/iguGH2025/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
+                  href="https://github.com/iguGH2026/c-dersleri/tree/main/Proje_Kullanim_Klavuzu"
                   target="_blank"
                   rel="noreferrer"
                 >Proje Kullanım Klavuzu</a>
@@ -301,10 +301,9 @@ git push origin main`}</pre>
           <li>Yalnızca kendi klasörünüzde dosya oluşturun/silin/düzenleyin.</li>
           <li>Kodlarda Türkçe karakter kullanmayın (ğ, ü, ş, ö, ç, ı).</li>
           <li>Dosya adları anlamlı olsun (ör. <code className="kbd">faktoriyel.c</code>).</li>
-          <li>Kod içinde açıklayıcı yorumlar yazın.</li>
           <li>Her kod derlenebilir durumda olmalı; hatalı kod yüklemeyin.</li>
           <li>Git akışı: <code className="kbd">git add .</code> · <code className="kbd">git commit -m "Yeni ödev eklendi"</code> · <code className="kbd">git push</code></li>
-          <li>Başkalarının klasörlerine dokunmayın; hata olursa commit’i geri alın.</li>
+          <li>Başkalarının klasörlerine izin olmadan dokunmayın; hata olursa commit’i geri alın.</li>
           <li>Projeler haftalık kontrol edilir; katkılar kendi GitHub hesabınızla görünür.</li>
         </ol>
       </section>
@@ -342,12 +341,12 @@ git push origin main`}</pre>
       <div className="hr" />
 
       {/* KATKI SAĞLAYANLAR */}
-      <section id="katkicilar" className="section" style={{ padding: "64px 0" }}>
+      {/*<section id="katkicilar" className="section" style={{ padding: "64px 0" }}>
         <h2>Katkı Sağlayanlar</h2>
         <p style={{ marginTop: 8 }}>Bu projeye katkı sağlayan öğrenciler aşağıda listelenmiştir.</p>
         <div className="avatars">
-          <a className="avatar" href="https://github.com/iguGH2025" target="_blank" rel="noreferrer">
-            <img src="https://avatars.githubusercontent.com/iguGH2025" alt="iguGH2025" width={70} height={70} />
+          <a className="avatar" href="https://github.com/iguGH2026" target="_blank" rel="noreferrer">
+            <img src="https://avatars.githubusercontent.com/iguGH2026" alt="iguGH2026" width={70} height={70} />
           </a>
           <a className="avatar" href="https://github.com/trs-1342" target="_blank" rel="noreferrer">
             <img src="https://avatars.githubusercontent.com/trs-1342" alt="trs-1342" width={70} height={70} />
@@ -369,14 +368,14 @@ git push origin main`}</pre>
             onaylandıktan sonra bu listeye eklenir.
           </p>
         </div>
-      </section>
+      </section>*/}
 
       <footer>
         <div className="section footer-inner">
           <span>© {new Date().getFullYear()} c-dersleri · IGÜ</span>
           <div className="footer-links">
             <a href="#home">Başa dön</a>
-            <a href="https://github.com/iguGH2025/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://github.com/iguGH2026/" target="_blank" rel="noreferrer">GitHub</a>
             <a href="mailto:igu2025gh@hotmail.com">İletişim</a>
             <a href="https://hattab.vercel.app">Geliştirici</a>
           </div>
