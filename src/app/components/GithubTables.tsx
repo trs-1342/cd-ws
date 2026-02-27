@@ -11,6 +11,7 @@ const REPOS = [
 ];
 
 // İsteğe bağlı: .env içine NEXT_PUBLIC_GITHUB_TOKEN koyarsan oran limitin genişler
+// TEST
 const GH_TOKEN =
     typeof process !== "undefined" ? process.env.NEXT_PUBLIC_GITHUB_TOKEN : undefined;
 
